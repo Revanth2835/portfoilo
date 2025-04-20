@@ -9,7 +9,7 @@ header{
  
 }
 div{
-    border: 2px solid black;
+    
     border-radius: 20px;
     margin: 20px;
     padding: 20px;
@@ -18,13 +18,63 @@ section{
     /* height: 500px; */
     width: 100%;
     padding-left: 20px;
+   
+}
+img {
+    height: 200px;
+    width: 200px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.project,
+.projectContainer{
+display: flex;
+flex-direction: row;
+
+}
+
+.projectContainer{
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+.project1container,
+.project2container, .project3container,
+.project4container{
     border: 2px solid black;
+    box-shadow: 2px 3px 21px black;
 }
-.yellow{
 
-
+.project1container:hover,
+.project2container:hover,
+.project3container:hover,
+.project4container:hover{
+    background-color: rgb(223, 91, 91);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
 }
-.red{
+
+.feedbackForm{
+    display: flex;
+
+    justify-content: center;
+}
+
+form{
+   display: flex;
+   flex-direction: column;
+   height: 200px;
+   width: 200px;
+   padding: 30px;
+   justify-content: space-between;
+   border: 2px solid black;
+   border-radius: 20px;
+   
    
 
 }
